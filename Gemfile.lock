@@ -1,0 +1,42 @@
+GIT
+  remote: git://github.com/developerby/poloniex.git
+  revision: 48106daade3117b48b03932a19b2f6a15f384912
+  specs:
+    poloniex (1.0.1)
+      addressable
+      rest-client
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    addressable (2.4.0)
+    coderay (1.1.0)
+    domain_name (0.5.20160310)
+      unf (>= 0.0.5, < 1.0.0)
+    http-cookie (1.0.2)
+      domain_name (~> 0.5)
+    method_source (0.8.2)
+    mime-types (2.99.2)
+    netrc (0.11.0)
+    pry (0.10.3)
+      coderay (~> 1.1.0)
+      method_source (~> 0.8.1)
+      slop (~> 3.4)
+    rest-client (1.8.0)
+      http-cookie (>= 1.0.2, < 2.0)
+      mime-types (>= 1.16, < 3.0)
+      netrc (~> 0.7)
+    slop (3.6.0)
+    unf (0.1.4)
+      unf_ext
+    unf_ext (0.0.7.2)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  poloniex!
+  pry
+
+BUNDLED WITH
+   1.12.2
